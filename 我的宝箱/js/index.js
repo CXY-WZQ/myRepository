@@ -14,7 +14,6 @@ pic.innerHTML+=pic.innerHTML;
 pic.style.width=picLi.length*oBox.offsetWidth+"px";
 
 var index=0;
-
 function nextfn(){
 	index++;
 	if (index>dotLi.length-1) {
@@ -25,7 +24,7 @@ function nextfn(){
 		pic.style.transitionDuration="0s";
 	}
 	pic.style.left=pic.offsetLeft-oBox.offsetWidth+"px";
-	pic.style.transition="all .3s ease";
+	pic.style.transition="all .5s ease";
 
 	for (var i=0;i<dotLi.length;i++) {
 				dotLi[i].className="";
@@ -43,9 +42,17 @@ for (var i=0;i<dotLi.length;i++) {
 			}
 			this.className="active";
 			pic.style.left= -this.index*oBox.offsetWidth+"px";
-			pic.style.transition="all .3s ease";
+			pic.style.transition="all .5s ease";
 		}
 	}
+
+touch.on('#pic', 'touchstart', function(ev){
+	ev.preventDefault();
+});
+pic.style.webkitTransition = 'all ease 0.5s';
+touch.on(pic, 'swipeleft', function(ev){
+	nextfn();
+});
 
 // 点击变动态图部分
 for (var i = 0; i < imgs.length; i++) {	
