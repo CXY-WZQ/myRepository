@@ -1,0 +1,165 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/*导航*/
+.container_nav{
+    background-color: #1a86c0;
+} 
+.navbar{
+    background-color: #1A86C0;
+    border: none;
+    color: #fff;
+}
+.navbar .navbar-toggle{
+    border: none;
+}
+.navbar .navbar-toggle .icon-bar{
+    background-color: #FFFFFF;
+}
+.navbar .navbar-nav li>a{
+    color: #FFFFFF;
+}
+.navbar .navbar-brand{
+    width: 130px;
+}
+.collapsed:hover{
+    background: transparent !important;
+}
+
+/*头部*/
+#head{
+    margin-top: -1.5em;
+    margin-bottom: 2em;
+    min-height: 25em;
+    background: #1A86C0;
+}
+#head .row{
+    margin-top: 3em;
+    color: #FFFFFF;
+    text-align: center;
+}
+#head h2{
+    font-weight: 100;
+}
+#head .platform-list{
+    width: 60%;
+    opacity: 0.8;
+    margin-top: 2em;
+}
+#head .form-group{
+    margin-top: 3em;
+}
+#head .form-control{
+    width: 75%;
+    height: 45px;
+    float: left;
+    font-size: 16px;
+    padding: 6px 12px;
+    color: #555555;
+    border: 1px solid #73c1ea;
+    box-shadow: none;
+}
+#head .btn-custom{
+    color: #FFFFFF;
+    background-color: #1A86C0;
+    border-color: #73C1EA;
+    height: 45px;
+    padding: 0 12px;
+    text-transform: uppercase;
+    width: 21%;
+    float: right;
+}
+
+/*内容*/
+#sidebar a{
+    color: #999;
+}
+#sidebar h2 {
+    font-size: 1em;
+    font-family: arial;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#main .block header h2 {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: arial;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 0.5em;
+}
+.col-xs-2 {
+    width: 16.6666666667%;
+}
+.col-lg-10 {
+    width: 83.3333333333%;
+}
+.bot-list {
+    padding-top: 1em;
+}
+.bot-list .bot {
+    margin-bottom: 1em;
+    min-height: 7em;
+}
+.col-sm-4 a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.fill {
+    width: 100%;
+}
+.avatar {
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+}
+.bot-list .bot h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+.bot-list .bot p.category {
+    color: #959595;
+    font-size: .8em;
+}
+.bot-list .bot h2 a {
+    color: #000;
+}
+.platforms img:nth-child(1){
+    margin-right: 5px;
+}
+.pad-left-clear {
+    padding-left: 0;
+}
+
+/*底部*/
+.see{
+    font-size: 24px;
+    text-align: center;
+    color: #999;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #d5d5d5;
+    box-sizing: content-box;
+    height: 0;
+}
+.foot{
+    border-top: 1px solid #d5d5d5;
+    color: #999;
+}
+.foot-right{
+    text-align: right;
+}
+.foot-right a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.foot .row{
+    padding: 1em 0 2em;
+}

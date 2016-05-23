@@ -1,0 +1,54 @@
+div.content-info#signup(style="padding:4em 0;")
+	div.container
+		h3 Available now for iOS!
+		p Currently available for Gmail and Google Apps - more providers coming soon.
+		br
+		a(href="#")
+			img.appStore(src="../images/app.png")
+		br
+		div.linkText
+			div.linkTextInner
+				input.linkID(type="hidden" value="5fe7a06b-3bbf-44fc-9dbd-ff3e10392ee4")
+				div.textBox
+					input.linkTextInput(placeholder="(201) 555-5555")
+					div.flag-dropdown.dropdown
+						div.selected-flag.dropdown-toggle(data-toggle="dropdown")
+							div.iti-flag.us
+								img(src="../images/flag.png")
+							div.arrow
+						ul.country-list.dropdown-menu
+							li.country.preferred(data-dial-code="1" data-country-code="us")
+								a(href="#")
+									div.flag
+										div.itii-flag.us
+											img(src="../images/flag.png")
+									span.country-name United States
+									span.dial-code +1
+							li.country.preferred(data-dial-code="1" data-country-code="us")
+								a(href="#")
+									div.flag
+										div.itii-flag.us
+											img(src="../images/nation.png")
+									span.country-name China
+									span.dial-code +86
+							li.country.preferred(data-dial-code="1" data-country-code="us")
+								a(href="#")
+									div.flag
+										div.itii-flag.us
+											img(src="../images/deguo.png")
+									span.country-name Germany
+									span.dial-code +11
+				botton.linkButton(type="button") Text me a link
+		p(style="color:#404040;") If you are on Android or Windows Phone, we are working on versions for you!
+		p Enter your email and choose your OS below to be notified.
+		form
+			input#fremail(type="text" value="Your email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email address';}")
+			div.clearfix
+			p(style="color:#404040;") Choose your OS to submit.
+			span.brand
+				a(href="#")
+					img(src="../images/w.jpg")
+			span.brand
+				a(href="#")
+					img(src="../images/a.jpg")
+			div.clearfix
