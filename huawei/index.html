@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,,user-scalable=no">
+	<title>华为 - 更美好的全联接世界</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/myreset.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css"/>
+	<link rel="stylesheet" href="css/index.css"></head>
+<body>
+	<!-- ~~~~~~~头部~~~~~~~~~ -->
+	<header class="top_wrap">
+		<div class="top_bar clearfix hidden-xs">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="login_regist">
+				<div class="l_r">
+					<a href="#">选择区域/语言</a>
+					<a href="load.html">登录</a>
+					<a href="regist.html">注册</a>
+				</div>
+				<div class="other_way">
+					<a class="wechat" href="#">
+						<img src="images/wechat.png" alt=""></a>
+					<a href="#">
+						<img src="images/weibo.png" alt=""></a>
+					<a href="#">
+						<img src="images/hw.png" alt=""></a>
+					<span class="wx_code">
+						<img src="images/wx.jpg" alt=""></span>
+				</div>
+			</div>
+		</div>
+		<!-- ~~~~~~~导航和banner部分~~~~~~~~~ -->
+		<div class="nav_banner">
+			<!--导航部分-->
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<a class="navbar-brand visible-xs" href="index.html">
+						<img src="images/logo.png" alt=""></a>
+					<!-- 超小屏时的搜索按钮 -->
+					<a href="#" class="xs_button visible-xs-inline-block">
+						<img src="images/search.png" alt=""></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" 
+			         data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" style="border: none;overflow:-Scroll;overflow-x:hidden;" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<span class="iwant hidden-xs ">
+								<img src="images/man.png" alt="">
+								我想...
+								<img class="spin" src="images/jiantou.png" alt=""></span>
+							<h2 class="first_page">首页</h2>
+						</li>
+						<li>
+							<a>
+								<span>行业洞察</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<span>解决方案</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<span>服务</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<span>产品</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<span>技术支持</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>合作伙伴</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">华为商城</a>
+						</li>
+					</ul>
+					<div class="search">
+						<span class="search_s clearfix">
+							<input id="text" type="text">
+							<input id="button" type="button"></span>
+					</div>
+					<!-- 小屏时的搜索按钮 -->
+					<a href="#" class="sm_button visible-sm-inline-block"></a>
+				</div>
+			</nav>
+			<!-- 超小屏时的搜索框 -->
+			<div class="hid_search">
+				<span class="hids_search">
+					<input id="hid_text" type="text">
+					<input id="hid_button" type="button"></span>
+			</div>
+			<!-- 小屏时的搜索框 -->
+			<div class="sm_search">
+				<span class="sms_search">
+					<input id="sm_text" type="text">
+					<input id="sm_button" type="button"></span>
+			</div>
+
+			<!-- 选项卡内容 -->
+			<div class="nav_con_wrap">
+				<div class="nav_con container">
+					<ul class="nav_con_ul clearfix">
+						<li>
+							<div class="row">
+								<div class="col-sm-5">
+									<div class="row">
+										<div class="col-xs-4">
+											<img src="images/li1_1.jpg" alt=""></div>
+										<div class="col-xs-8 linkTo">
+											<a href="#">浏览智能手机</a>
+											<a href="#">浏览平板电脑</a>
+											<a href="#">浏览穿戴设备</a>
+											<a href="#">升级软件应用</a>
+											<a href="#">访问消费者业务网站&gt;</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="row">
+										<div class="col-xs-4 ">
+											<img src="images/li1_2.jpg" alt=""></div>
+										<div class="col-xs-8 linkTo">
+											<a href="#">查找解决方案</a>
+											<a href="#">查找商用产品</a>
+											<a href="#">联系分销商</a>
+											<a href="#">获得技术支持</a>
+											<a href="#">访问企业业务网站&gt;</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 linkTo">
+									<a href="#">了解华为</a>
+									<a href="#">成为合作伙伴</a>
+									<a href="#">加入华为</a>
+									<a href="#">在线反馈</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="row">
+								<div class="col-sm-4 sec_li1">
+									<span>
+										<a href="#">全联接世界</a>
+									</span>
+									<span>
+										<a href="#">客户声音</a>
+									</span>
+									<span>
+										<a href="#">市场趋势</a>
+									</span>
+									<span>
+										<a href="#">创新</a>
+									</span>
+									<span>
+										<a href="#">热点技术</a>
+									</span>
+									<span>
+										<a href="#">标准与行业贡献</a>
+									</span>
+								</div>
+								<div class="col-sm-4 intro">
+									<div>
+										<img src="images/li2_1.jpg" alt=""></div>
+									<h3>
+										<a href="#">2016全球联接指数</a>
+									</h3>
+									<p>通过经济要素和ICT使能技术的关联模型，持续量化全球数字经济发展进程，为不同国家的数字经济规划和发展提供参考。</p>
+								</div>
+								<div class="col-sm-4 intro">
+									<div>
+										<img src="images/li2_2.jpg" alt=""></div>
+									<h3>
+										<a href="#">华为轮值CEO郭平：5G到来之前的准备</a>
+									</h3>
+									<p>5G到来前，我们可以做三件事：增强联接能力；从供给驱动转变为需求驱动使能垂直行业；重新定义网络能力。</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="resolve">
+							<div class="row">
+								<div class="col-sm-3 hotTopic">
+									<h2>热点话题</h2>
+									<a href="#">无处不在的移动超宽带</a>
+									<a href="#">FMC2.0，极致体验的融合超宽带</a>
+									<a href="#">SoftCOM，重构未来电信业</a>
+									<a href="#">面向体验的ICT运营运维转型</a>
+									<a href="#">软件定义网络</a>
+									<a href="#">精简IT，敏捷商道</a>
+									<a href="#">物联网，驱动行业创新</a>
+								</div>
+								<div class="col-sm-3 hangye ">
+									<h2>行业</h2>
+									<div>
+										<a href="#">公共安全</a>
+										<a href="#">政务</a>
+										<a href="#">轨道</a>
+										<a href="#">电力</a>
+										<a href="#">金融</a>
+										<a href="#">影视传媒</a>
+									</div>
+									<div>
+										<a href="#">教育</a>
+										<a href="#">医疗</a>
+										<a href="#">油气</a>
+										<a href="#">制造</a>
+										<a href="#">零售</a>
+										<a href="#">酒店</a>
+									</div>
+								</div>
+								<div class="col-sm-3 intro">
+									<div>
+										<img src="images/li3_1.jpg" alt=""></div>
+									<h3>
+										<a href="#">Leading New ICT</a>
+									</h3>
+									<p>在”新ICT“时代，华为基于技术创新，打造开放平台，构建全新生态，助力企业数字化转型。</p>
+								</div>
+								<div class="col-sm-3 intro">
+									<div>
+										<img src="images/li3_2.jpg" alt=""></div>
+									<h3>
+										<a href="#">产品定义社区</a>
+									</h3>
+									<p>如果您在安装、使用、维护华为泛网络产品中有任何问题与建议，赶快告诉我们吧，反馈一经采纳，就有大奖哦！我们的产品你定义！</p>
+								</div>
+							</div>
+						</li>
+						<li class="serve">
+							<div class="row">
+								<div class="col-sm-3 hotTopic">
+									<h2>热点话题</h2>
+									<a href="#">客户体验管理</a>
+									<a href="#">精品网</a>
+									<a href="#">端到端网络规划与集成</a>
+									<a href="#">OSS从支撑到使能</a>
+									<a href="#">NFV集成与运维</a>
+									<a href="#">数据中心新建与整合</a>
+									<a href="#">运维转型</a>
+								</div>
+								<div class="col-sm-3 hangye ">
+									<h2>运营商服务</h2>
+									<div>
+										<a href="#">咨询服务</a>
+										<a href="#">管理客户体验服务</a>
+										<a href="#">系统集成服务</a>
+										<a href="#">管理服务</a>
+										<a href="#">客户支持服务</a>
+										<a href="#">网络部署服务</a>
+										<a href="#">培训服务</a>
+									</div>
+								</div>
+								<div class="col-sm-3 ">
+									<h2>企业服务</h2>
+									<div>
+										<a href="#">专业服务</a>
+										<a href="#">技术支持服务</a>
+										<a href="#">培训与认证服务</a>
+										<a href="#">行业服务解决方案</a>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="product">
+							<div class="row">
+								<div class="col-sm-2">
+									<h2>个人</h2>
+									<a href="#">手机</a>
+									<a href="#">平板电脑</a>
+									<a href="#">智能穿戴</a>
+									<a href="#">移动宽带</a>
+									<a href="#">智能家居</a>
+									<a href="#">配件</a>
+								</div>
+								<div class="col-sm-2">
+									<h2>商用</h2>
+									<span> <strong>无限电信网络</strong>
+									</span>
+									<a href="#">LTE FDD</a>
+									<a href="#">LTE TDD</a>
+									<a href="#">SingleRAN</a>
+									<a href="#">GSM&UMTS</a>
+									<span> <strong>电信软件</strong>
+									</span>
+									<a href="#">客户管理</a>
+									<a href="#">收入管理</a>
+									<a href="#">大数据分析</a>
+								</div>
+								<div class="col-sm-2">
+									<span class="span_top">
+										<strong>固定电信网络</strong>
+									</span>
+									<a href="#">固定接入网</a>
+									<a href="#">传送网</a>
+									<a href="#">运营商IP</a>
+									<span>
+										<strong>核心网</strong>
+									</span>
+									<a href="#">CS</a>
+									<a href="#">IMS</a>
+									<a href="#">融合用户数据</a>
+									<a href="#">loT</a>
+								</div>
+								<div class="col-sm-2">
+									<span class="span_top">
+										<strong>IT</strong>
+									</span>
+									<a href="#">存储</a>
+									<a href="#">服务器</a>
+									<a href="#">云计算</a>
+									<a href="#">企业云服务</a>
+									<span>
+										<strong>企业无线</strong>
+									</span>
+									<a href="#">eLET宽带接入</a>
+									<a href="#">eLET宽带集群</a>
+									<a href="#">GSM-R</a>
+								</div>
+								<div class="col-sm-2">
+									<span class="span_top">
+										<strong>企业网络</strong>
+									</span>
+									<a href="#">交换机</a>
+									<a href="#">路由器</a>
+									<a href="#">无线局域网</a>
+									<a href="#">传送网</a>
+									<a href="#">接入网</a>
+									<a href="#">安全</a>
+								</div>
+								<div class="col-sm-2">
+									<span class="span_top">
+										<strong>UC&C</strong>
+									</span>
+									<a href="#">智真和视讯</a>
+									<a href="#">视频监控</a>
+									<a href="#">融合通信</a>
+									<a href="#">联络中心</a>
+									<span>
+										<strong>网络能源</strong>
+									</span>
+									<a href="#">通信能源</a>
+									<a href="#">数据中新能源</a>
+									<a href="#">FusionSolar</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="tec_support">
+							<div class="row">
+								<div class="col-sm-3">
+									<h2>消费者</h2>
+									<a href="#">寄修服务</a>
+									<a href="#">预约服务</a>
+									<a href="#">保修状态查询</a>
+									<a href="#">保修政策</a>
+									<a href="#">花粉俱乐部</a>
+									<a href="#">服务中心</a>
+									<a href="#">升级软件应用</a>
+								</div>
+								<div class="col-sm-3">
+									<h2>企业用户</h2>
+									<a href="#">技术支持</a>
+									<a href="#">软件下载</a>
+									<a href="#">互动社区</a>
+									<a href="#">工具</a>
+									<a href="#">文档查找</a>
+									<a href="#">案例库</a>
+									<a href="#">华为培训与认证</a>
+								</div>
+								<div class="col-sm-3">
+									<h2>运营商用户</h2>
+									<a href="#">产品支持</a>
+									<a href="#">Group Space</a>
+									<a href="#">公告</a>
+									<a href="#">华为资料直通车</a>
+									<a href="#">培训</a>
+									<a href="#">HedEx Lite</a>
+									<a href="#">知道社区</a>
+								</div>
+								<div class="col-sm-3">
+									<div class="kefu">
+										<img src="images/li6.jpg" alt=""></div>
+									<p>在线技术支持、软件下载、文档共享，无论您遇到任何问题，我们都将随时为您提供服务。</p>
+								</div>
+
+							</div>
+						</li>
+
+						<li class="partner">
+							<div class="row">
+								<div class="col-sm-3">
+									<h2>合作伙伴计划</h2>
+									<a href="#">渠道伙伴体系</a>
+									<a href="#">渠道政策</a>
+									<a href="#">解决方案伙伴体系</a>
+									<a href="#">Huawei Ready计划</a>
+									<a href="#">企业解决方案伙伴计划</a>
+									<a href="#">能力开放伙伴计划</a>
+									<a href="#">服务合作伙伴计划</a>
+								</div>
+								<div class="col-sm-2">
+									<h2>合作伙伴展示</h2>
+									<a href="#">联盟伙伴展示</a>
+									<a href="#">渠道伙伴展示</a>
+									<a href="#">解决方案伙伴展示</a>
+									<a href="#">兼容性中心</a>
+								</div>
+								<div class="col-sm-2">
+									<h2>产品兼容性展示</h2>
+									<a href="#">查找经销商</a>
+									<a href="#">查找服务商</a>
+									<a href="#">查找解决方案伙伴</a>
+								</div>
+								<div class="col-sm-2">
+									<h2>合作伙伴展示</h2>
+									<a href="#">开发者社区</a>
+									<a href="#">合作伙伴大学</a>
+								</div>
+								<div class="col-sm-3">
+									<a href="#" class="partner_pic1">渠道伙伴系统登录</a>
+									<a href="#" class="partner_pic2">解决方案伙伴系统登录</a>
+									<div class="cooperate">
+										<a href="#">&gt;&gt; 企业用户合作伙伴门户</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- ~~~~~~~banner部分~~~~~~~~~ -->
+			<div class="banner">
+				<div class="swiper-container main">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide banner1">
+							<div class="ani b_content" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+								<img src="images/banner1_1.png" alt="">
+								<span>
+									<a href="#">了解更多</a>
+								</span>
+							</div>
+							<img class="s_banner" src="images/s_banner1.jpg" alt="">
+							<div class="s_content visible-xs">
+								<div class="s_bg1 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+									<a href="#">HUAWEI CONNECT 2016</a>
+									<p>Shape the Cloud</p>
+									<p>2016年8月31日 -9月2日 中国·上海·世博中心</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide banner2">
+							<div class="ani b_content" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+								<img src="images/banner2_1.png" alt="">
+								<span>
+									<a href="#">了解更多</a>
+								</span>
+							</div>
+							<img class="s_banner" src="images/s_banner2.jpg" alt="">
+							<div class="s_content visible-xs">
+								<div class="s_bg2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+									<a href="#">HUAWEI MateBook</a>
+									<p>开启时尚新商务</p>
+									<p>一触解锁|轻薄时尚|高效合一</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide banner3">
+							<div class="ani b_content" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+								<img src="images/banner3_1.png" alt="">
+								<span>
+									<a href="#">了解更多</a>
+								</span>
+							</div>
+							<img class="s_banner" src="images/s_banner3.jpg" alt="">
+							<div class="s_content visible-xs">
+								<div class="s_bg3 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+									<a href="#">2016全球联接指数</a>
+									<p>量化数字经济进程</p>
+									<p>从联接的角度看国家经济的转型与未来</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide banner4">
+							<div class="ani b_content" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+								<img src="images/banner4_1.png" alt="">
+								<span>
+									<a href="#">了解更多</a>
+								</span>
+							</div>
+							<img class="s_banner" src="images/s_banner4.jpg" alt="">
+							<div class="s_content visible-xs">
+								<div class="s_bg4 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s">
+									<a href="#">Huawei P9</a>
+									<p>华为|徕卡联合设计</p>
+									<p>瞬间，定格视界的角度</p>
+									<p>手机摄影的再一次突破</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev swiper-button-white swiper-button"></div>
+					<div class="swiper-button-next swiper-button-white swiper-button"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- ~~~~~~~新闻~~~~~~~~~ -->
+	<div class="news hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2 ">
+					<h3>
+						<a href="#">新闻</a>
+					</h3>
+				</div>
+				<div class="col-xs-10 swiper-container news_swiper">
+					<div class="swiper-wrapper container">
+						<div class="swiper-slide">
+							<a href="#">深圳电信与华为合作共建“千兆全光网标杆城市”</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">以新ICT构建全联接的电力物联网，迈入能源智能时代</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">华为和爱立信、诺基亚续签基于OSSii的谅解备忘录</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">第四届中国OpenStack Bug Smash在杭州举办，持续引领开源生态发展</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">华为全光园区技术方案体验中心正式揭幕</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">华为CloudRAN 助力意大利电信TIM打造未来敏捷网络</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">重塑IT，加速银行数字化转型</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">中国移动联合华为展示业界首个3.3-3.4GHz TD-LTE端到端系统</a>
+						</div>
+					</div>
+					<div class="swiper-button-prev swiper-button-black swiper-button"></div>
+					<div class="swiper-button-next swiper-button-black swiper-button"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ~~~~~~~内容~~~~~~~~~ -->
+	<!-- ~~~~~~~第一部分内容~~~~~~~~~ -->
+	<div class="first_con common_con">
+		<div class="container">
+			<ul class="row">
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/tec.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">科技之美</a>
+							</h3>
+							<p>智能的交通、畅捷的物流、丰富的资讯……科技让生活如此美妙。在我们身边，科技之美无处不在。</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/man.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">推进“全面云化”战略，使能行业数字化转型</a>
+							</h3>
+							<p>在2016年华为全球分析师大会上，华为轮值CEO徐直军向与会嘉宾解读了“全面云化”战略。</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/oldman.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">《营赢》第24期</a>
+							</h3>
+							<p>本期封面：Kevin Kelly认为，未来云端将诞生无数“X即服务”。有了云，所有实体产品都可成服务。</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- ~~~~~~~第二部分视频内容~~~~~~~~~ -->
+	<div class="video">
+		<div class="container">
+			<div class="row">
+				<a href="#">
+					<img src="images/video_03.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- ~~~~~~~第三部分内容~~~~~~~~~ -->
+	<div class="third_con common_con">
+		<div class="container">
+			<ul class="row">
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/4.5g.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">4.5G，通往MBB 2020的成功之路</a>
+							</h3>
+							<p>作为LTE持续演进的方向和目标，4.5G是通往5G的必由之路 ，将帮助运营商在未来几年保持竞争力。</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/road.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">NFV驶入快车道</a>
+							</h3>
+							<p>以NFV/SDN为代表的未来网络演进方向，成为运营商网络转型的关键词，有望为运营商带来巨大价值。</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">
+								<img src="images/videocover.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-12">
+							<h3>
+								<a href="#">如何通过视频覆盖打造最佳移动宽带网络</a>
+							</h3>
+							<p>创新的Video Coverage网络规划方法论，将如何帮助运营商构建高清视频体验无处不在的MBB网络？</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- ~~~~~~~展会活动~~~~~~~~~ -->
+	<div class="activity">
+		<div class="container">
+			<h2>
+				<a href="#">展会活动</a>
+			</h2>
+			<ul class="row">
+				<li class="col-sm-4">
+					<h3>
+						<a href="#">2016世界移动大会-上海</a>
+					</h3>
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/act1.jpg" alt=""></div>
+						<div class="col-xs-8">
+							<p>
+								迈向全联接世界的开放之路
+								<br>6月29日-7月1日&nbsp;&nbsp;&nbsp;&nbsp;中国，上海</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<h3>
+						<a href="#">2016超宽带全球行</a>
+					</h3>
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/act2.jpg" alt=""></div>
+						<div class="col-xs-8">
+							<p>
+								UBB 2020，拥抱Gigaband时代
+								<br>4月-9月</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-4">
+					<h3>
+						<a href="#">2016世界移动大会-上海</a>
+					</h3>
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/act3.jpg" alt=""></div>
+						<div class="col-xs-8">
+							<p>
+								移动创新创造未来
+								<br>11月23-25日&nbsp;&nbsp;&nbsp;&nbsp;日本，东京</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 右边栏联系与反馈-->
+	<div class="contactUs hidden-xs">
+		<ul>
+			<li class="rocket"></li>
+			<li>
+				<a href="#"></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+		</ul>
+	</div>
+	<!-- 超小屏小火箭-->
+	<div class="rocket visible-xs"></div>
+	<!-- ~~~~~~~底部~~~~~~~~~ -->
+	<footer>
+		<div class="foot_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 foot_top_left">
+						<div class="row">
+							<div class="col-sm-3 homePosition">
+								<h3 class="visible-xs home_page">
+									<span class="home"></span>
+									<a href="#">首页</a>
+								</h3>
+								<h4>按访问者</h4>
+								<ul>
+									<li>
+										<a href="#">个人用户</a>
+									</li>
+									<li>
+										<a href="#">企业用户</a>
+									</li>
+									<li>
+										<a href="#">运营商用户</a>
+									</li>
+									<li>
+										<a href="#">合作伙伴</a>
+									</li>
+									<li>
+										<a href="#">新闻媒体</a>
+									</li>
+									<li>
+										<a href="#">供应商</a>
+									</li>
+									<li>
+										<a href="#">求职者</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<h4>关于华为</h4>
+								<ul>
+									<li>
+										<a href="#">公司简介</a>
+									</li>
+									<li>
+										<a href="#">公司治理</a>
+									</li>
+									<li>
+										<a href="#">高管信息</a>
+									</li>
+									<li>
+										<a href="#">债券投资者关系</a>
+									</li>
+									<li>
+										<a href="#">可持续发展</a>
+									</li>
+									<li>
+										<a href="#">网络安全</a>
+									</li>
+									<li>
+										<a href="#">出版物</a>
+									</li>
+									<li>
+										<a href="#">公司年报</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<h4>新闻 & 展会</h4>
+								<ul>
+									<li>
+										<a href="#">新闻</a>
+									</li>
+									<li>
+										<a href="#">媒体工具</a>
+									</li>
+									<li>
+										<a href="#">媒体联系</a>
+									</li>
+									<li>
+										<a href="#">安全通告</a>
+									</li>
+									<li>
+										<a href="#">展会活动</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<h4>快速链接</h4>
+								<ul>
+									<li>
+										<a href="#">华为商城</a>
+									</li>
+									<li>
+										<a href="#">荣耀官网</a>
+									</li>
+									<li>
+										<a href="#">华为海洋</a>
+									</li>
+									<li>
+										<a href="#">产品定义社区</a>
+									</li>
+									<li>
+										<a href="#">心声社区</a>
+									</li>
+									<li>
+										<a href="#">除名查询</a>
+									</li>
+									<li>
+										<a href="#">在线反馈</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 foot_top_right">
+						<div class="slogan">
+							<img src="images/slogan.png" alt=""></div>
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/sina.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/in.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/facebook.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/bird.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/youtube.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/G+.png" alt=""></a>
+							</li>
+						</ul>
+						<div class="weixin hidden-sm hidden-xs">
+							<span>
+								<img src="images/weixin.jpg" alt=""></span>
+							<span>官方微信</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="foot_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 hidden-sm hidden-xs">版权所有 © 华为技术有限公司 1998-2016。 保留一切权利。粤A2-20044005号</div>
+					<div class="col-md-4 col-xs-12 foot_bottom_right">
+						<ul>
+							<li>
+								<a href="#">法律声明</a>
+							</li>
+							<li>
+								<a href="#">隐私保护</a>
+							</li>
+							<li>
+								<a href="#">联系我们</a>
+							</li>
+							<li>
+								<a href="#">网站地图</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate.min.js"></script>
+	<script src="js/tween.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

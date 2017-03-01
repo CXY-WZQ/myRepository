@@ -1,0 +1,80 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,ul,ol,dl,li,dd,dt,pre,button,input,textarea,fieldset,legend,th,td,header,footer,nav,section {
+	margin:0;
+	padding:0
+}
+body,button,input,select,textarea {
+	font:"Microsoft YaHei",Helvetica,Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif
+}
+h1 {
+	font-size:18px
+}
+h2 {
+	font-size:16px
+}
+h3 {
+	font-size:14px
+}
+h4,h5,h6 {
+	font-size:100%
+}
+address,cite,dfn,em,var {
+	font-style:normal
+}
+ul,ol {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+legend {
+	color:#000
+}
+fieldset,img {
+	border:0
+}
+button,input,select,textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+hr {
+	border:0;
+	height:1px
+}
+html {
+	overflow-y:scroll
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+img button {
+	border:0
+}
+* {
+	box-sizing:border-box
+}
+.clearfix {
+	zoom:1
+}
+.clearfix:after {
+	content:"";
+	height:0;
+	clear:both;
+	display:block;
+	overflow:hidden
+}
+.hidden {
+	display:none
+}
+.show {
+	display:block
+}
+header,section,footer,aside,nav,article,figure {
+	display:block
+}

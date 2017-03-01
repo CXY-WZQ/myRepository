@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册新的账号</title>
+	<link rel="stylesheet" href="css/myreset.css">
+	<link rel="stylesheet" href="css/regist.css"></head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="images/logo.png" alt=""></a>
+		</div>
+	</header>
+	<div class="regist clearfix">
+		<div class="regist_left">
+			<h2>注册</h2>
+		</div>
+		<div class="regist_right">
+			<span>
+				<a href="load.html">登录</a>
+			</span>
+			<span>简体中文（中国）</span>
+		</div>
+	</div>
+	<section>
+		<div class="regist_way clearfix">
+			<div class="regist_by_email active">邮箱注册</div>
+			<div class="regist_by_phone">手机注册</div>
+		</div>
+		<div class="regist_con email">
+			<ul>
+				<li>
+					<span>账号</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="text">
+					<div class="tips">
+						账号应符合以下规则：
+						<br>
+						·账号应以数字或字母开头。
+						<br>
+						·仅能由如下字符构成：字母，数字，下划线，"_"。
+						<br>
+						·长度为3~10位
+						<br>·正确账号格式如：jack_wang</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>电子邮箱</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="text">
+					<div class="tips">·建议优先使用办公邮箱</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>密码</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="password">
+					<div class="tips">
+						密码应符合以下规则：
+						<br>
+						·密码长度不少于八位字符。
+						<br>
+						·必须包含字母、数字和特殊字符。
+						<br>·正确密码格式如：S7*$jEkc</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>确认密码</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="password">
+					<div class="tips">请重复输入上面的密码。</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>姓氏拼音</span>
+					<span>*</span>
+					<input class="have_warning" type="text">
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>名字拼音</span>
+					<span>*</span>
+					<input class="have_warning" type="text">
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>姓名</span>
+					<span>*</span>
+					<input class="have_warning" type="text">
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>国家/地区</span>
+					<span>*</span>
+					<select name="">
+						<option value="">俄罗斯(+7)</option>
+						<option selected="selected" value="">中国(+86)</option>
+						<option value="">朝鲜(+850)</option>
+					</select>
+					<input class="qianzhui" type="text" value="+86"></li>
+				<li>
+					<span>联系电话</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="text">
+					<div class="tips">·手机号码。</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<input type="checkbox">
+					<span>
+						验证手机号 <strong>(经过验证的手机号可以用于登录或重置密码、修改密码)</strong>
+					</span>
+				</li>
+				<li>
+					<span>验证码</span>
+					<span>*</span>
+					<input class="have_warning" type="text">
+					<span class="refresh ref_con" id="email_code"></span>
+					<span class="refresh">
+						<img src="images/lll.png" alt=""></span>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<input id="checkbox" disabled="disabled" type="checkbox" checked="checked">
+					<span>*</span>
+					<span>
+						我已阅读并同意
+						<a href="#">华为公司用户注册协议</a>
+					</span>
+				</li>
+				<li>
+					<input id="email_btn" type="submit" value="注册"></li>
+			</ul>
+		</div>
+		<div class="regist_con phone">
+			<ul>
+				<li>
+					<span>国家/地区</span>
+					<span>*</span>
+					<select name="">
+						<option value="">俄罗斯(+7)</option>
+						<option selected="selected" value="">中国(+86)</option>
+						<option value="">朝鲜(+850)</option>
+					</select>
+					<input class="qianzhui" type="text" value="+86">
+					<span></span>
+				</li>
+				<li>
+					<span>手机号码</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="text">
+					<div class="tips">·手机号码。</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>密码</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="password">
+					<div class="tips">
+						密码应符合以下规则：
+						<br>
+						·密码长度不少于八位字符。
+						<br>
+						·必须包含字母、数字和特殊字符。
+						<br>·正确密码格式如：S7*$jEkc</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>确认密码</span>
+					<span>*</span>
+					<input class="have_tips have_warning" type="password">
+					<div class="tips">请重复输入上面的密码。</div>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>验证码</span>
+					<span>*</span>
+					<input class="have_warning" type="text">
+					<span class="refresh ref_con"></span>
+					<span class="refresh" id="phone_code">
+						<img src="images/lll.png" alt=""></span>
+					<span class="warning"></span>
+				</li>
+				<li>
+					<span>短信验证码</span>
+					<span>*</span>
+					<input type="text">
+					<input type="button" value="获取验证短信"></li>
+				<li>
+					<input disabled="disabled" type="checkbox" checked="checked">
+					<span>*</span>
+					<span>
+						我已阅读并同意
+						<a href="#">华为公司用户注册协议</a>
+					</span>
+				</li>
+				<li>
+					<input id="phone_btn" type="submit" value="注册"></li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<p>版权所有 © 华为技术有限公司 1998-2016。保留一切权利。</p>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/regist.js"></script>
+	<script src="js/request.js"></script>
+</body>
+</html>
