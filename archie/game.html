@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>抗菌五金 大"价"再临</title>
+		<link rel="stylesheet" type="text/css" href="src/css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="src/css/animate.min.css"/>
+	</head>
+	<body>
+        <audio loop="loop" preload="auto" autoplay="autoplay" id="bgMusic" src = "src/audio/bgmusic.mp3"></audio>
+		<audio preload="auto" id="boom">
+		  	<source src="src/audio/bomb.mp3" type="audio/mpeg">
+		</audio>
+		<audio preload="auto" id="boom1">
+		  	<source src="src/audio/bomb.mp3" type="audio/mpeg">
+		</audio>
+		<audio preload="auto" id="boom2">
+		  	<source src="src/audio/bomb.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio preload="auto" id="allBoom">
+		  	<source src="src/audio/all_boom.mp3" type="audio/mpeg">
+		</audio>
+		<audio preload="auto" id="game_over">
+		  	<source src="src/audio/game_over.mp3" type="audio/mpeg">
+		</audio>
+		<div id="loading">
+			<div class="fire">
+				<img src="src/img/bullet_big.png"/>
+			</div>
+			<div class="load_wrap">
+				<div class="loadPer">
+					
+				</div>
+			</div>
+			<div class="text">
+				<p>正在装载武器中，请稍候……</p>
+				<p>0%</p>
+			</div>
+			
+		</div> 
+        <div class="home_wrap">
+			<div class="logo"></div>
+			<div class="degerm">
+				<div class="monster_min">
+					
+				</div>
+				<div class="monster_max">
+					
+				</div>
+			</div>
+			<div class="bg_anti"></div>
+			<div class="bg_monster"></div>
+			<div class="bg_instantly">
+            	<img src="src/img/bg_instantly.png"/>
+				<img src="src/img/catch_now.png"/>
+            </div>
+			<div class="bg_rank"></div>
+			<div class="bg_prize"></div>
+		</div>
+        
+        <div class="ranking">
+            <div class="rank_bg">
+                <div class="close">
+                    
+                </div>
+                <ul class="rank_wrap">
+                   
+                </ul>
+            </div>
+        </div>
+        
+		<div id="rule"></div>
+		<canvas id="canvas" width="" height=""></canvas>
+		
+		
+		<div id="share_again">
+			<div class="close">
+				
+			</div>
+			<div class="share_again_now">
+				<img src="src/img/share_now.png"/>
+				<img src="src/img/down_share_now.png"/>
+			</div>
+		</div>
+		<div id="result">
+			<div id="radiance">
+				<img src="src/img/radiance1.png"/>
+				<img src="src/img/radiance2.png"/>
+			</div>
+			<div id="result_score">
+				0分
+			</div>
+			<div id="hit_num">
+				<span>抗菌侠顺利消灭66只细菌怪!</span>
+				<span>抗菌者联盟一战到底</span>
+			</div>
+			<div id="max_score">
+				<img src="src/img/shield.png"/>
+				<span id="maxNum"></span>
+				<!---->
+				<span id="integral" style="display: none"></span>
+			</div>
+			<div id="btns">
+				<div class="duihuan">
+					<img src="src/img/duihuan.png"/>
+					<img src="src/img/down_duihuan.png"/>
+				</div>
+				<div class="myjp">
+					<img src="src/img/myjp.png"/>
+					<img src="src/img/down_myjp.png"/>
+				</div>
+				<div class="again">
+					<img src="src/img/again.png"/>
+					<img src="src/img/down_again.png"/>
+				</div>
+				<div class="share">
+					<img src="src/img/share.png"/>
+					<img src="src/img/down_share.png"/>
+				</div>
+			</div>
+		</div>
+		<div id="awards">
+			<div>
+				<img src="src/img/at_once.png"/>
+				<img src="src/img/down_at_once.png"/>
+			</div>
+			<div>
+				<img src="src/img/at_once.png"/>
+				<img src="src/img/down_at_once.png"/>
+			</div>
+			<div>
+				<img src="src/img/at_once.png"/>
+				<img src="src/img/down_at_once.png"/>
+			</div>
+			<div>
+				<img src="src/img/at_once.png"/>
+				<img src="src/img/down_at_once.png"/>
+			</div>
+			<div>
+				<img src="src/img/at_once.png"/>
+				<img src="src/img/down_at_once.png"/>
+			</div>
+			<div class="close_awards">
+				
+			</div>
+		</div>
+		<div id="follow">
+			<div class="close">
+				
+			</div>
+			<div class="two">
+				<img src="src/img/two.png"/>
+			</div>
+		</div>
+		<div id="submit_info">
+			<div class="submit_wrap">
+				<div class="userName">
+					姓名:<input type="text" id="name" value="" />
+				</div>
+				<div class="userName">
+					电话:<input type="number" id="phone" value="" />
+				</div>
+				<span>请认真填写个人信息，提交之后不可修改</span>
+				<div id="submit_btn">
+					<img src="src/img/submit_info.png"/>
+				</div>
+			</div>
+			
+		</div>
+		<div class="submit_success">
+			<div class="close">
+				
+			</div>
+			<div id="share_btn">
+				<img src="src/img/share_now.png"/>
+				<img src="src/img/down_share_now.png"/>
+			</div>
+		</div>
+		<div class="join">
+			
+		</div>
+		<div id="success">
+			<div class="share_now">
+				<img src="src/img/share_now.png"/>
+				<img src="src/img/down_share_now.png"/>
+			</div>
+		</div>
+		<div id="failed">
+			<div class="close">
+				
+			</div>
+			<div class="iknow">
+				<img src="src/img/ikonw.png"/>
+				<img src="src/img/down_iknow.png"/>
+			</div>
+		</div>
+		
+		<div id="my_awards">
+			<div class="close">
+				
+			</div>
+			<div class="left">
+				
+			</div>
+			<div class="right">
+				
+			</div>
+			<div class="prize_btn">
+				<img src="src/img/prize_now.png"/>
+			</div>
+			<div class="my_awards_wrap">
+				
+			</div>
+			
+		</div>
+		<div id="confirm">
+			<div class="close">
+				
+			</div>
+			<div class="gongzuo">
+				<img src="src/img/gongzuo.png"/>
+				<img src="src/img/down_gongzuo.png"/>
+			</div>
+			<div class="buling">
+				<img src="src/img/buling.png"/>
+				<img src="src/img/down_buling.png"/>
+			</div>
+		</div>
+		<div id="lingsucc">
+			<div class="close">
+				
+			</div>
+			<div class="share1">
+				<img src="src/img/share_now.png"/>
+				<img src="src/img/down_share_now.png"/>
+			</div>
+		</div>
+        <div id="convert_fail">
+        		
+            <div class="convert_fail_wrap">
+                <div class="close">
+                    
+                </div>
+                <img src="src/img/share_now.png"/>
+            </div>
+        </div>
+       <div id="exchange_fail">
+       		
+       		<div class="exchange_fail_wrap">
+       			<div class="close">
+       				
+       			</div>
+       			
+       			<img src="src/img/ikonw.png"/>
+       			
+       		</div>
+       		
+       </div>
+	</body>
+</body>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+	<script src="src/js/jquery-1.12.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="src/js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
